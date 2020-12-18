@@ -1,6 +1,6 @@
 Package.describe({
   summary: 'Layout Manager for Blaze (works well with FlowRouter)',
-  version: '2.3.0',
+  version: '2.3.1',
   git: 'https://github.com/kadirahq/blaze-layout',
   name: "kadira:blaze-layout"
 });
@@ -21,8 +21,7 @@ Package.onTest(function(api) {
 
 function configure(api) {
   api.versionsFrom('1.0');
-  api.use('blaze');
-  api.use('templating');
+  api.use('blaze-html-templates@2.3.4');
   api.use('reactive-dict');
   api.use('underscore');
   api.use('jquery@3.0.0');
