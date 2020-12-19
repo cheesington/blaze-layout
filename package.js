@@ -20,8 +20,8 @@ Package.onTest(function(api) {
 });
 
 function configure(api) {
-  api.versionsFrom('1.0');
-  api.use('blaze-html-templates@2.3.4');
+  api.versionsFrom('1.7');
+  api.use('blaze-html-templates');
   api.use('reactive-dict');
   api.use('underscore');
   api.use('jquery@3.0.0');
